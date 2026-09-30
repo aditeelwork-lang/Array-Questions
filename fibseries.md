@@ -12,9 +12,9 @@ int main(){
     int n;
     cout<<"enter n";
     cin>>n;
-    for(int i=2;i<=n;i++){
+    for(int i=2;i<=n-1;i++){
     arr[i]=arr[i-1]+arr[i-2];
     
 }
- cout<<arr[n];
+ cout<<arr[n-1];
 }
